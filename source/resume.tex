@@ -1,0 +1,40 @@
+\documentclass[12pt, letterpaper]{tomking-resume-cv}
+
+\begin{document}
+
+% ----------
+% TITLE
+% ----------
+\begin{minipage}{4cm}
+    \includegraphics[width=4cm]{qr_code.png}
+\end{minipage}
+\begin{minipage}{\dimexpr\textwidth-4.25cm\relax}
+    \begin{tabular}{l c}
+        \sffamily \Huge Thomas King \\
+        {\color{darkgray} Researcher | Technology Consultant} \\
+        {\color{darkgray} Builder | Teacher} \\
+    \end{tabular}
+    \hfill
+    \begin{tabular}{r c}
+        \faEnvelope \ business@tomking.io \\
+        \faPhone \  \\
+        \faHome \ \url{www.tomking.io} \\
+    \end{tabular}
+    \vfill
+    \begin{quote}
+        \textit{"Machines take me by surprise with great frequency"} \\
+        \raggedleft $\sim$ {\color{violet} \textbf{Alan Turing}}
+    \end{quote}
+\end{minipage}
+% ----------
+% /TITLE
+% ----------
+
+\input{components/statement_of_purpose.tex}
+\input{components/professional_experience.tex}
+\pagebreak
+\input{components/education_and_research.tex}
+\input{components/awards_and_recognitions.tex}
+\input{components/skills.tex}
+
+\end{document}
